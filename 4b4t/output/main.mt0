@@ -1,0 +1,4 @@
+$DATA1 SOURCE='HSPICE' VERSION='R-2020.12 win64' PARAM_COUNT=0
+.TITLE 'ternary circuits'
+ iavgsum          temper           alter#          
+  1.091e-05        2.500e+01       1               

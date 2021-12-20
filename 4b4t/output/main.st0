@@ -1,0 +1,119 @@
+****** HSPICE -- R-2020.12 win64 (Nov 23 2020 6727817) ******
+Input File: main.sp
+lic:
+lic: FLEXlm: SDK_12.9
+lic: USER:   maxde                HOSTNAME: Alien-One
+lic: HOSTID: "802bf9e1da16"       PID:      24760
+lic: Using FLEXlm license file:
+lic: 27020@lic011.usn.no
+lic: Checkout 1 hspice
+lic: License/Maintenance for hspice will expire on 31-dec-2021/2020.12
+lic: 1(in_use)/1(total) FLOATING license(s) on SERVER 27020@lic011.usn.no
+lic:
+
+ init: begin read circuit files, cpu clock= 5.21E-01
+       option search = C:/synopsys/Hspice_R-2020.12/parts/behave/
+       option search = C:/synopsys/Hspice_R-2020.12/parts/AD/
+       option search = C:/synopsys/Hspice_R-2020.12/parts/XILINX/
+       option search = C:/synopsys/Hspice_R-2020.12/parts/TLINE/
+       option search = C:/synopsys/Hspice_R-2020.12/parts/TI/
+       option search = C:/synopsys/Hspice_R-2020.12/parts/SIGNET/
+       option search = C:/synopsys/Hspice_R-2020.12/parts/PCI/
+       option search = C:/synopsys/Hspice_R-2020.12/parts/LIN_TECH/
+       option search = C:/synopsys/Hspice_R-2020.12/parts/PET/
+       option search = C:/synopsys/Hspice_R-2020.12/parts/DI0/
+       option search = C:/synopsys/Hspice_R-2020.12/parts/COMLINE/
+       option search = C:/synopsys/Hspice_R-2020.12/parts/BURR_BRM/
+       option search = C:/synopsys/Hspice_R-2020.12/parts/BJT/
+       option post
+       option autostop
+       option ingold =     2.00
+       option dcon =     1.00
+       option gshunt =    1.000E-12
+       option rmin =    1.000E-15
+       option abstol =    1.000E-09
+       option absvdc =    1.000E-04
+       option reltol =    1.000E-02
+       option relvdc =    1.000E-02
+       option numdgt =     4.00
+       option pivot =     1.00
+       option vntol =    1.000E-03
+       option converge =     5.00
+       option dcstep =     100.
+       option method = gear
+       option runlvl =     0.00
+       option parhier = local
+       option epsmin =    1.000E-99
+       option expmax =     37.0
+ init: end read circuit files, cpu clock= 5.37E-01 peak memory=      72 mb
+ init: begin check errors, cpu clock= 5.37E-01
+ init: end check errors, cpu clock= 5.73E+00 peak memory=     249 mb
+ init: begin setup matrix, pivot=     1 cpu clock= 5.73E+00
+       establish matrix -- done, cpu clock= 5.75E+00 peak memory=     253 mb
+       re-order matrix -- done, cpu clock= 5.75E+00 peak memory=     254 mb
+ init: end setup matrix, cpu clock= 5.78E+00 peak memory=     257 mb
+ dcop: begin dcop, cpu clock= 5.78E+00
+ dcop: begin gshunt ramping
+ dcop: gshunt =      0.1000000E-03, gmin =      0.1000000E-11, iter =       12
+ dcop: gshunt =      0.1000000E-04, gmin =      0.1000000E-11, iter =        9
+ dcop: gshunt =      0.1000000E-05, gmin =      0.1000000E-11, iter =        7
+ dcop: gshunt =      0.1000000E-06, gmin =      0.1000000E-11, iter =        7
+ dcop: gshunt =      0.1000000E-07, gmin =      0.1000000E-11, iter =        7
+ dcop: gshunt =      0.1000000E-08, gmin =      0.1000000E-11, iter =       14
+ dcop: gshunt =      0.1000000E-09, gmin =      0.1000000E-11, iter =      200
+ dcop: gshunt =      0.1000000E-09, gmin =      0.9500000E-11, iter =      200
+ dcop: gshunt =      0.5050000E-09, gmin =      0.9500000E-11, iter =       12
+ dcop: gshunt =      0.2550250E-09, gmin =      0.9500000E-11, iter =      200
+ dcop: gshunt =      0.2550250E-09, gmin =      0.9025000E-10, iter =      200
+ dcop: gshunt =      0.3675138E-09, gmin =      0.9025000E-10, iter =      200
+ dcop: gshunt =      0.3675138E-09, gmin =      0.8573750E-09, iter =      200
+ dcop: gshunt =      0.4293826E-09, gmin =      0.8573750E-09, iter =        8
+ dcop: gshunt =      0.3650879E-09, gmin =      0.8573750E-09, iter =       67
+ dcop: gshunt =      0.3650879E-09, gmin =      0.4286875E-09, iter =        3
+ dcop: gshunt =      0.3104205E-09, gmin =      0.4286875E-09, iter =        9
+ dcop: gshunt =      0.3104205E-09, gmin =      0.2143437E-09, iter =        3
+ dcop: gshunt =      0.2639389E-09, gmin =      0.2143437E-09, iter =        6
+ dcop: gshunt =      0.2639389E-09, gmin =      0.1071719E-09, iter =        3
+ dcop: gshunt =      0.2046566E-09, gmin =      0.1071719E-09, iter =        8
+ dcop: gshunt =      0.2046566E-09, gmin =      0.5358594E-10, iter =        3
+ dcop: gshunt =      0.1357059E-09, gmin =      0.5358594E-10, iter =      200
+ dcop: gshunt =      0.1357059E-09, gmin =      0.5090664E-09, iter =      200
+ dcop: gshunt =      0.1667337E-09, gmin =      0.5090664E-09, iter =        6
+ dcop: gshunt =      0.1358379E-09, gmin =      0.5090664E-09, iter =        7
+ dcop: gshunt =      0.1358379E-09, gmin =      0.2545332E-09, iter =        3
+ dcop: gshunt =      0.1106671E-09, gmin =      0.2545332E-09, iter =        8
+ dcop: gshunt =      0.1106671E-09, gmin =      0.1272666E-09, iter =        3
+ dcop: gshunt =      0.9016050E-10, gmin =      0.1272666E-09, iter =        6
+ dcop: gshunt =      0.9016050E-10, gmin =      0.6363330E-10, iter =        3
+ dcop: gshunt =      0.6510037E-10, gmin =      0.6363330E-10, iter =        5
+ dcop: gshunt =      0.6510037E-10, gmin =      0.3181665E-10, iter =        3
+ dcop: gshunt =      0.3795837E-10, gmin =      0.3181665E-10, iter =        5
+ dcop: gshunt =      0.3795837E-10, gmin =      0.1590833E-10, iter =        3
+ dcop: gshunt =      0.1421966E-10, gmin =      0.1590833E-10, iter =       10
+ dcop: gshunt =      0.1421966E-10, gmin =      0.7954163E-11, iter =        3
+ dcop: gshunt =      0.1421966E-11, gmin =      0.7954163E-11, iter =      200
+ dcop: gshunt =      0.1421966E-11, gmin =      0.7556454E-10, iter =      200
+ dcop: gshunt =      0.7180929E-11, gmin =      0.7556454E-10, iter =        7
+ dcop: gshunt =      0.3626369E-11, gmin =      0.7556454E-10, iter =        6
+ dcop: gshunt =      0.3626369E-11, gmin =      0.3778227E-10, iter =        3
+ dcop: gshunt =      0.1831316E-11, gmin =      0.3778227E-10, iter =        6
+ dcop: gshunt =      0.1831316E-11, gmin =      0.1889114E-10, iter =        3
+ dcop: gshunt =      0.1000000E-11, gmin =      0.1000000E-11, iter =      200
+ dcop: gshunt =      0.1000000E-11, gmin =      0.1000000E-11, iter =      139
+ dcop: gshunt ramping succeeded
+ dcop: end dcop, cpu clock= 6.15E+02 peak memory=     259 mb tot_iter=    2607
+ output: C:\Users\maxde\AppData\LocalLow\USN Kongsberg\MRCS\User\Generated\4B4Tw
+ sweep: tran tran0    begin, stop_t=  3.20E-09 #sweeps= 321 cpu clock= 6.15E+02
+ tran: time= 3.2432E-10 tot_iter=     560 conv_iter=     190 cpu clock= 7.37E+02
+ tran: time= 6.4078E-10 tot_iter=    2031 conv_iter=     681 cpu clock= 1.06E+03
+ tran: time= 9.6500E-10 tot_iter=    3070 conv_iter=    1033 cpu clock= 1.28E+03
+ tran: time= 1.2817E-09 tot_iter=    4861 conv_iter=    1629 cpu clock= 1.67E+03
+ tran: time= 1.6000E-09 tot_iter=    5739 conv_iter=    1931 cpu clock= 1.86E+03
+ tran: time= 1.9201E-09 tot_iter=    7271 conv_iter=    2436 cpu clock= 2.19E+03
+ tran: time= 2.2402E-09 tot_iter=    8766 conv_iter=    2934 cpu clock= 2.51E+03
+ tran: time= 2.5610E-09 tot_iter=    9968 conv_iter=    3344 cpu clock= 2.77E+03
+ tran: time= 2.8802E-09 tot_iter=   12190 conv_iter=    4080 cpu clock= 3.25E+03
+ tran: time= 3.2000E-09 tot_iter=   12983 conv_iter=    4339 cpu clock= 3.43E+03
+ sweep: tran tran0    end, cpu clock= 3.43E+03 peak memory=     260 mb
+>info:         ***** hspice job concluded
+ lic: Release hspice token(s)
