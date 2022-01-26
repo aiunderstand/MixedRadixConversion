@@ -1,0 +1,22 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  HIGH SPEED BI-DIRECTIONAL BINARY-TERNARY INTERFACE 
+  WITH CNTFETS
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - family-names: Bos
+    given-names: Steven
+    email: steven.bos@usn.no
+    affiliation: USN
+    orcid: 'https://orcid.org/0000-0002-0206-357X'
+  - given-names: Halvor Nybø
+    family-names: Risto
+    email: halvor.n.risto@usn.no
+    affiliation: USN
+    orcid: 'https://orcid.org/0000-0002-1224-1499'
